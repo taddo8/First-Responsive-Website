@@ -1,0 +1,85 @@
+html {
+    background-color: lightslategray;
+}
+
+.container {
+    max-width: 970px; /** cuts off the right of page **/
+    margin-left: auto; /** center pages with space right/left **/
+    margin-right: auto;
+    background-color: lightblue;
+}
+
+.head1 {
+    color: orange;
+    background-color: green;
+    block-size: 100px;
+    
+}
+
+.image {
+    margin-bottom: 50px;
+    padding-left: 300px;
+    position: relative;
+    
+}   
+.image-desc {
+    position: absolute;  /*Trasnparent (need relative position as well) **/
+    left: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, .65); 
+}
+
+
+/* Site Navigation */
+.info {
+    background-color: white;
+}
+.info li {   /** specific from nav then list **/ 
+    list-style: none; /** removes BULLETs from Nav lists **/
+    float: left;  /** float links horizontal **/
+    
+}
+.info a {  /** element a is use to modify,color, space **/
+    text-decoration: none; /** remove underline nav **/
+    color: blue;
+    padding: 10px 50.5px;  /** Spacing 40 vertical 50 horizontal **/
+    display: block;  /** receives vertical paddings **/
+    border: 3px solid navy;  /** create box border around **/
+    margin-right: 2.5px;  /** create space btw box border **/
+}
+.info a:hover {
+    background-color: gray;
+}
+.info-about {
+    margin: 0;
+    padding: 0px;
+    
+}
+
+/* End Site Navigation */
+
+
+/** PARAGRAPH SECTIONS **/
+
+.columns {
+    border-top: 3px solid black; /** create horizontal black lines **/
+    border-bottom: 3px solid black;
+    padding-left: 10px;  /** creates spacing on left side **/
+    padding-right: 10px;  /** creates spacing on right side **/
+    
+ }
+
+.p1 {
+    width: 50%; /** moves p to left 50% with blank space to right **/
+    float: left; /** float p1 to left **/
+    
+    ;
+}
+.p2 {
+    width: 48%;
+    float: right;
+}
+
+.fix {
+    clear: both;
+}
